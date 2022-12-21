@@ -13,7 +13,7 @@ spec:
         run: nginx-deploy
     spec:
       containers:
-      - image: sub06120/app:v1
+      - image: sub06120/app:v2
         name: test
         ports:
         - containerPort: 80
